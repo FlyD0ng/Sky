@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sky</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="AboutFragment_label_nickname">逝水流年</string>
+    <string name="AboutFragment_desc_introduction">.............................</string>
+</resources>

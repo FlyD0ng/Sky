@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="16dp"
+            android:src="@mipmap/ic_default" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_avatar"
+            android:layout_toEndOf="@id/iv_avatar"
+            android:layout_toRightOf="@id/iv_avatar"
+            android:layout_marginTop="@dimen/spacing_tiny"
+            android:text="@string/AboutFragment_label_nickname"
+            android:textSize="@dimen/font_size_normal_high"
+            android:textColor="@color/gray_dark"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_avatar"
+            android:layout_toRightOf="@id/iv_avatar"
+            android:layout_alignBottom="@id/iv_avatar"
+            android:layout_marginBottom="@dimen/spacing_tiny"
+            android:text="@string/AboutFragment_desc_introduction"
+            android:textSize="@dimen/font_size_small"/>
+    </RelativeLayout>
+<LinearLayout
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="0dp">
+    <TextView
+        android:text="    Des：该项目主要用来学习Material Design Support Library和一些android其他技术，目前主要分为俩大部分
+
+    解析干货集中营的开放API 随时随地掌握技术最新动态
+    有趣的搞笑图片（尝试了MVP设计框架）\n\n
+
+其中分别尝试了不同的实现方式，解析干货集中营时采用了开源库XRecyclerView提供的刷新，而搞笑图片模块则是使用SwipeRefreshLayout+RecyclerView的刷新方式。\n\n本项目主要是用作练习，包含的主要技术点有：
+
+    抽象和封装
+    MaterialDesign控件的使用
+    MVP的初步使用
+    封装okhttp解析网络数据
+    okhttp配合gson快速解析
+    RecyclerView的使用
+    缓存
+    不同的下拉刷新
+    fragment实例化的优化
+    一些好用的工具类（AppManager、DoubleClickHelper等）
+
+        "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>

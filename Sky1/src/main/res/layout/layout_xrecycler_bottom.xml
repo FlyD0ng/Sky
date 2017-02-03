@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:padding="3dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/item_ganhuo">
+
+    <ImageView
+        android:src="@mipmap/iconfont_source_fill"
+        android:layout_width="14dp"
+        android:layout_height="14dp"/>
+
+    <TextView
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="6dp"
+        android:text="web"
+        android:textSize="13dp"
+        android:id="@+id/tv_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv_people"
+        android:src="@mipmap/iconfont_people"
+        android:layout_width="14dp"
+        android:layout_height="14dp"/>
+
+    <TextView
+        android:id="@+id/tv_people"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="6dp"
+        android:text="sxfelvis"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv_time"
+        android:src="@mipmap/iconfont_time"
+        android:layout_width="14dp"
+        android:layout_height="14dp"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_marginLeft="3dp"
+        android:textSize="13dp"
+        android:text="2017年1月28日"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+    <ImageView
+        android:id="@+id/iv_tag"
+        android:src="@mipmap/iconfont_cate"
+        android:layout_width="18dp"
+        android:layout_height="18dp"/>
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Android"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

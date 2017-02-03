@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red">#de4472</color>
+
+    <color name="primary">#edf0f0</color>
+    <color name="primary_dark">#00897b</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="accent">#ffb74d</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="gray">#ff808080</color>
+    <color name="theme_color">#3F51B5</color><!--App主色调-->
+
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="tab_bgcolor">#eeeeee</color>
+    <color name="mainpage_mycrircle_leftview_item_auth_name">#d8ffffff</color>
+    <color name="theme_color_level2">#5c6bc0</color><!--App主色调2-->
+    <color name="list_divider">#19e0e1d8</color><!--列表item 分割线-->
+
+    <color name="grey">#607D8B</color>
+    <color name="pink">#f48fb1</color>
+    <color name="brown">#efebe9</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_light">#fafafa</color>
+    <color name="gray_light">#aaaaaa</color>
+    <color name="gray_middle">#666666</color>
+    <color name="gray_dark">#333333</color>
+    <color name="divider_grey">#eeeeee</color>
+
+    <color name="black">#000000</color>
+</resources>
